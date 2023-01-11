@@ -1,0 +1,43 @@
+body{
+     margin:0px;
+     background-color: #E2E4DC;
+}
+#root{
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+     height:100vh;
+}
+.tower{
+     width:300px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-end;
+     height:280px;
+
+}
+.stick{
+     top:32vh !important;
+     position: absolute;
+     top:200px;
+     background:#BEC5AD;
+     height:300px;
+     width:10px;
+}
+.disk{
+     margin: 20px 0px;
+     height: 30px;
+}
+.selected .stick{
+     background: #869973;
+}
+.restartButton{
+     position:absolute;
+     top:80vh;
+     background-color:#7BA683;
+     border: none;
+     border-radius: 10px;
+     width:300px;
+     height:50px;
+}
